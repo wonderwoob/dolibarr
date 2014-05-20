@@ -133,8 +133,7 @@ if ($action == 'infocredit' && $user->rights->prelevement->bons->credit)
 $bon = new BonPrelevement($db,"");
 $form = new Form($db);
 
-llxHeader('',$langs->trans("WithdrawalsReceipts"));                                                                     i
-
+llxHeader('',$langs->trans("WithdrawalsReceipts"));
 
 if ($id > 0)
 {
